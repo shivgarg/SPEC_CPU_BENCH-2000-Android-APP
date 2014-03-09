@@ -1,0 +1,78 @@
+package com.example.hellojni;
+
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.content.*;
+import android.widget.TextView;
+import android.content.res.AssetManager;
+
+import com.arieslabs.assetbridge.Assetbridge;
+import com.example.hellojni.R;
+
+public class Vortex extends Activity  {
+	private TextView finalResult;
+	static{ System.loadLibrary("vortex");}
+	Vortex255 obj = new Vortex255();
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		Assetbridge.unpack(this, "vortex");
+		String message=Assetbridge.path;
+		setContentView(R.layout.activity_vortex);
+		finalResult=(TextView)findViewById(R.id.tv_result);
+        
+		obj.execute(message);
+	}
+	public native String callvortex(String a);
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) 
+	{
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.vortex, menu);
+		return true;
+	}
+	public void onBackPressed()
+	{
+		if(obj.getStatus()!= AsyncTask.Status.FINISHED)
+		{
+			finalResult.setText("Please Wait");
+		}
+		else
+		{
+			Assetbridge.trimCache(this);
+			this.finish();
+		}
+		
+	}
+	private class Vortex255 extends AsyncTask<String,String,String> 
+	{
+		// Do the long-running work in here	
+		private String resp;
+		// This is called each time you call publishProgress()
+		@Override 
+		protected void onProgressUpdate(String... progress) 
+		{
+			finalResult.setText(progress[0]);
+		}
+		// This is called when doInBackground() is finished
+		@Override
+		protected String doInBackground(String... arg) 
+		{
+			// TODO Auto-generated method stub
+	  		publishProgress("Running Benchmark");
+			long start=System.nanoTime();
+	  		callvortex(arg[0]);
+			long diff=System.nanoTime()-start;
+			resp = ""+diff;
+	  		return resp;
+		}
+		@Override
+		protected void onPostExecute(String result) 
+		{
+			finalResult.setText(result);
+		}
+	}	
+}

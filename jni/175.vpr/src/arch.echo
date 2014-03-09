@@ -1,0 +1,71 @@
+Input netlist file: arch.in
+
+io_rat: 2.
+chan_width_io: 1  pins_per_clb (pins per clb): 6
+
+
+Channel Types:  UNIFORM = 0; GAUSSIAN = 1; PULSE = 2; DELTA = 3
+
+
+chan_width_x:
+type: 0  peak: 1  width: 0  xpeak: 0  dc: 0
+
+chan_width_y:
+type: 0  peak: 1  width: 0  xpeak: 0  dc: 0
+
+Pin #	class	top	bottom	left	right
+0	0	0	1	0	0	
+1	0	0	0	1	0	
+2	0	1	0	0	0	
+3	0	0	0	0	1	
+4	1	0	1	0	0	
+5	2	1	0	0	0	
+
+Class types:  DRIVER = 0; RECEIVER = 1
+
+Class	Type	Numpins	Pins
+0	1	4	0	1	2	3	
+1	0	1	4	
+2	1	1	5	
+
+subblocks_per_cluster (maximum): 1
+subblock_lut_size: 4
+
+Fc value is fraction of tracks in a channel.
+Fc_output: 1.  Fc_input: 1.  Fc_pad: 1.
+switch_block_type: SUBSET.
+
+num_segment: 3,  num_switch: 5.
+(Two switch types were generated automatically.)
+#4:  delayless switch.  #3:  wire_to_ipin_switch.
+
+Seg. #	freq.	length	longln	opin_sw	wire_sw	Frac_cb	Frac_sb	Cmetal	Rmetal
+0	0.5	1	0	2	0	1	1	5e-15	5
+1	0.3	2	0	1	1	1	1	5e-15	5
+2	0.2	4	0	1	1	1	1	5e-15	5
+
+Switch#	buff?	R	Cin	Cout	Tdel
+0	0	50	4e-15	4e-15	1e-11
+1	1	40	5e-16	8e-15	5e-11
+2	1	80	5e-16	8e-15	5e-11
+3	1	0	1e-15	0	5e-10
+4	1	0	0	0	0
+
+
+R_minW_nmos: 200  R_minW_pmos: 100
+
+
+Timing information:
+---------------------------------------------------------
+ipin_cblock_C: 1e-15 (F) 
+ipin_cblock_Tdel: 5e-10 (s)
+
+local_mux_Tdel: 4e-10 (s) 
+BLE_out_to_local_mux_Tdel: 1e-10 (s)
+LUT_Tdel: 2e-09 (s)  
+BLE_mux_Tdel: 2e-10 (s)
+Q_to_out_Tdel: 1e-10 (s)  
+Tsetup: 3e-10 (s)
+
+ipad_Tdel: 3e-09 (s)  
+opad_Tdel: 2e-09 (s)

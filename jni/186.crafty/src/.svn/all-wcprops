@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/time.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/init.c
+END
+nexte.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/nexte.c
+END
+swap.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/swap.c
+END
+history.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/history.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/Makefile
+END
+quiesce.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/quiesce.c
+END
+validate.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/validate.c
+END
+evaluate.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/evaluate.c
+END
+repeat.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/repeat.c
+END
+interupt.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/interupt.c
+END
+nextr.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/nextr.c
+END
+store.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/store.c
+END
+ponder.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/ponder.c
+END
+root.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/root.c
+END
+crafty .rc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/crafty%20.rc
+END
+crafty.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/crafty.in
+END
+boolean.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/boolean.c
+END
+search.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/search.c
+END
+mainO3F.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/mainO3F.c
+END
+Makefile.spec
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/Makefile.spec
+END
+data.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/data.c
+END
+drawn.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/drawn.c
+END
+attacks.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/attacks.c
+END
+utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/utility.c
+END
+make.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/make.c
+END
+enprise.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/enprise.c
+END
+resign.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/resign.c
+END
+next.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/next.c
+END
+option.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/option.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/main.c
+END
+iterate.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/iterate.c
+END
+lookup.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/lookup.c
+END
+phase.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/phase.c
+END
+mainO1.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/mainO1.c
+END
+movgen.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/movgen.c
+END
+valid.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/valid.c
+END
+mainO2.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/mainO2.c
+END
+mainO3.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/186.crafty/src/mainO3.c
+END
+preeval.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/preeval.c
+END
+output.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/output.c
+END
+draw.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/draw.c
+END
+setboard.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/setboard.c
+END
+unmake.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/unmake.c
+END
+edit.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/edit.c
+END
+input.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/input.c
+END
+searchr.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/5/SPEC/jni/186.crafty/src/searchr.c
+END

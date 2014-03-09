@@ -1,0 +1,4 @@
+The YACC sources for the C parser (c-parse.y) are included in the src.alt
+subdirectory for users of non-ASCII systems who wish to attempt to port
+176.gcc to their platform.  Review of a submission using such a parser
+would also necessarily involve a review of the generated parser as well.

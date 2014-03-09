@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src
+END
+massage.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/massage.c
+END
+idiom.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/idiom.c
+END
+extract-links.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/extract-links.c
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/print.c
+END
+read-dict.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/read-dict.c
+END
+build-disjuncts.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/build-disjuncts.c
+END
+parse.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/parse.c
+END
+fast-match.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/fast-match.c
+END
+and.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/and.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/main.c
+END
+strncasecmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/strncasecmp.c
+END
+mainO1.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/197.parser/src/mainO1.c
+END
+mainO2.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/197.parser/src/mainO2.c
+END
+xalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/xalloc.c
+END
+mainO3.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/6/SPEC/jni/197.parser/src/mainO3.c
+END
+word-file.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/word-file.c
+END
+post-process.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/post-process.c
+END
+analyze-linkage.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/analyze-linkage.c
+END
+mainO3F.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/6/SPEC/jni/197.parser/src/mainO3F.c
+END
+prune.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/prune.c
+END
+utilities.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/197.parser/src/utilities.c
+END

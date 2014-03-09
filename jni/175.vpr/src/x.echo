@@ -1,0 +1,90 @@
+Track: 0.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 1.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 2.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 3.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 4.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 5.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 6.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 7.
+Length: 1,  Start: 1,  Long line: 0  wire_switch: 0  opin_switch: 2.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 
+sb list: 1 1 
+
+Track: 8.
+Length: 2,  Start: 1,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 
+sb list: 1 1 1 
+
+Track: 9.
+Length: 2,  Start: 2,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 
+sb list: 1 1 1 
+
+Track: 10.
+Length: 2,  Start: 2,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 
+sb list: 1 1 1 
+
+Track: 11.
+Length: 2,  Start: 1,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 
+sb list: 1 1 1 
+
+Track: 12.
+Length: 4,  Start: 1,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 1 1 
+sb list: 1 1 1 1 1 
+
+Track: 13.
+Length: 4,  Start: 2,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 1 1 
+sb list: 1 1 1 1 1 
+
+Track: 14.
+Length: 4,  Start: 4,  Long line: 0  wire_switch: 1  opin_switch: 1.
+Rmetal: 5  Cmetal: 5e-15
+cb list: 1 1 1 1 
+sb list: 1 1 1 1 1 
+

@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers
+END
+spcl.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/spcl.h
+END
+fm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/fm.h
+END
+query.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/query.h
+END
+typedefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/typedefs.h
+END
+voa.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/voa.h
+END
+bmt01.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/bmt01.h
+END
+draw07.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/draw07.h
+END
+sa.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/sa.h
+END
+rects.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/rects.h
+END
+point.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/point.h
+END
+primal.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/primal.h
+END
+vom.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/vom.h
+END
+iam.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/iam.h
+END
+mem00.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/mem00.h
+END
+mem01.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/mem01.h
+END
+ogrp.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/ogrp.h
+END
+defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/defines.h
+END
+omidefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/omidefs.h
+END
+api.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/api.h
+END
+mem010.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/mem010.h
+END
+sm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/sm.h
+END
+oa0.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/oa0.h
+END
+om.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/om.h
+END
+tree00.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/tree00.h
+END
+list01.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/list01.h
+END
+oa1.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/oa1.h
+END
+tree01.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/tree01.h
+END
+ut.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/ut.h
+END
+core01.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/core01.h
+END
+odbm.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/odbm.h
+END
+blk.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/blk.h
+END
+km.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/km.h
+END
+dba.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/dba.h
+END
+env0.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/env0.h
+END
+env1.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/env1.h
+END
+im.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/im.h
+END
+rect.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/rect.h
+END
+grp.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/grp.h
+END
+bitvec.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/bitvec.h
+END
+gdbm.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/gdbm.h
+END
+trans.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/trans.h
+END
+env01.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/env01.h
+END
+dbm.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/dbm.h
+END
+empobj.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/empobj.h
+END
+shell.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/shell.h
+END
+drawobj.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/drawobj.h
+END
+mem10.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/mem10.h
+END
+files.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/files.h
+END
+vchunk.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/vchunk.h
+END
+obj01.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/obj01.h
+END
+tm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/tm.h
+END
+vdbm.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/vdbm.h
+END
+envdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/envdefs.h
+END
+emplib.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/emplib.h
+END
+drawlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/drawlib.h
+END
+domain.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/domain.h
+END
+hm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/~cs1120252/App/!svn/ver/2/SPEC/jni/255.vortex/headers/hm.h
+END

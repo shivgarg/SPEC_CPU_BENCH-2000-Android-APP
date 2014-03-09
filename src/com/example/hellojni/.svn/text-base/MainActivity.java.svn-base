@@ -1,0 +1,98 @@
+package com.example.hellojni;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.widget.*;
+import android.content.Context;
+import android.view.*;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.content.*;
+import com.arieslabs.assetbridge.Assetbridge;
+import com.example.hellojni.R;
+public class MainActivity extends Activity {
+
+	public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+			
+        }
+	public void gzip(View view) {
+		Intent intent = new Intent(this, Gzip.class);
+		startActivity(intent);
+	}
+
+	public void gcc(View view) {
+		Intent intent = new Intent(this, Gcc.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+
+	}
+	public void plasma(View view) {
+		Intent intent = new Intent(this, DisplayMessageActivity.class);
+		startActivity(intent);	
+	}
+	public void bzip2(View view) {
+		Intent intent = new Intent(this, Bzip2.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void vpr(View view) {
+		Intent intent = new Intent(this, Vpr.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void mcf(View view) {
+		Intent intent = new Intent(this, Mcf.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void crafty(View view) {
+		Intent intent = new Intent(this, Crafty.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void gap(View view) {
+		Intent intent = new Intent(this, Gap.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void vortex(View view) {
+		Intent intent = new Intent(this, Vortex.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void twolf(View view) {
+		Intent intent = new Intent(this, Twolf.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	public void parser(View view) {
+		Intent intent = new Intent(this, Parser.class);
+		String message = Assetbridge.path;
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	
+	
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

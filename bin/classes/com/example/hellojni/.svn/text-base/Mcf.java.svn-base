@@ -1,0 +1,122 @@
+package com.example.hellojni;
+
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.content.*;
+import android.widget.TextView;
+import android.content.res.AssetManager;
+
+import com.arieslabs.assetbridge.Assetbridge;
+import com.example.hellojni.R;
+
+public class Mcf extends Activity  {
+	private TextView finalResult;
+	static{ System.loadLibrary("mcf");
+	System.loadLibrary("mcfO1");System.loadLibrary("mcfO2");System.loadLibrary("mcfO3");System.loadLibrary("mcfO3F");
+				}
+	 Mcf181 obj = new Mcf181();
+	 String message;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Assetbridge.unpack(this,"mcf");
+		message=Assetbridge.path;
+		setContentView(R.layout.activity_mcf);
+		finalResult=(TextView)findViewById(R.id.tv_result);
+       
+		
+	}
+	int h;
+	public void o(View view) {
+		h=0;
+		obj.execute(message);
+	}
+	public void o1(View view) {
+		h=1;
+		obj.execute(message);
+	}public void o2(View view) {
+		h=2;
+		obj.execute(message);
+	}public void o3(View view) {
+		h=3;
+		obj.execute(message);
+	}public void o3f(View view) {
+		h=4;
+		obj.execute(message);
+	}
+	public native String callmcf(String a);
+	public native String callmcfO1(String a);
+	public native String callmcfO2(String a);
+	public native String callmcfO3(String a);
+	public native String callmcfO3F(String a);
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) 
+	{
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.mcf, menu);
+		return true;
+	}
+	public void onBackPressed()
+	{
+		if(obj.getStatus()!= AsyncTask.Status.FINISHED)
+		{
+			finalResult.setText("Please Wait");
+		}
+		else
+		{
+			Assetbridge.trimCache(this);
+			this.finish();
+		}
+		
+	}
+	private class Mcf181 extends AsyncTask<String,String,String> 
+	{
+		// Do the long-running work in here	
+		private String resp;
+		// This is called each time you call publishProgress()
+		@Override 
+		protected void onProgressUpdate(String... progress) 
+		{
+			finalResult.setText(progress[0]);
+		}
+		// This is called when doInBackground() is finished
+		@Override
+		protected String doInBackground(String... arg) 
+		{
+			// TODO Auto-generated method stub
+	  		publishProgress("Running Benchmark");
+			long start=System.nanoTime();
+	  		switch(h)	
+	  		{
+	  			case 0:
+	  				callmcf(arg[0]);
+	  				break;
+	  			case 1:
+	  				callmcfO1(arg[0]);
+	  				break;
+	  			case 2:
+	  				callmcfO2(arg[0]);
+	  				break;
+	  			case 3:
+	  				callmcfO3(arg[0]);
+	  				break;
+	  			case 4:
+	  				callmcfO3F(arg[0]);
+	  				break;
+	  			default:
+	  				break;
+	  		}
+			long diff=System.nanoTime()-start;
+			resp = ""+diff;
+	  		return resp;
+		}
+		@Override
+		protected void onPostExecute(String result) 
+		{
+			finalResult.setText(result);
+		}
+	}	
+}

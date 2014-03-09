@@ -1,0 +1,82 @@
+
+TimberWolfSC version:v4.3a date:Mon Jan 25 18:50:36 EST 1988
+Standard Cell Placement and Global Routing Program
+Authors: Carl Sechen, Bill Swartz
+          Yale University
+
+
+NOTE: Restart file .rs2 not used
+
+TimberWolf will perform a global route step
+rowSep: 1.000000
+feedThruWidth: 4
+
+******************
+BLOCK DATA
+block:1 desire:6144
+block:2 desire:6144
+block:3 desire:6144
+block:4 desire:6144
+block:5 desire:6144
+block:6 desire:6144
+block:7 desire:6144
+block:8 desire:6144
+block:9 desire:6144
+block:10 desire:6144
+block:11 desire:6144
+block:12 desire:6144
+block:13 desire:6144
+block:14 desire:6144
+block:15 desire:6144
+block:16 desire:6144
+Total Desired Length: 98304
+total cell length: 98288
+total block length: 98288
+block x-span:6143  block y-span:4650
+implicit feed thru range: -6143
+Using default value of bin.penalty.control:1.000000
+numBins automatically set to:116
+binWidth = average_cell_width + 0 sigma= 53
+average_cell_width is:52
+standard deviation of cell length is:15.6118
+TimberWolfSC starting from the beginning
+
+
+
+THIS IS THE ROUTE COST OF THE ORIGINAL PLACEMENT: 4722752
+The number of nets with 1 pin is 32
+The number of nets with 2 pin is 705
+The number of nets with 3 pin is 1151
+The number of nets with 4 pin is 0
+The number of nets with 5 pin is 0
+The number of nets with 6 pin is 0
+The number of nets with 7 pin is 0
+The number of nets with 8 pin is 0
+The number of nets with 9 pin is 0
+The number of nets with 10 pin or more is 32
+
+New Cost Function: Initial Horizontal Cost:1168960
+New Cost Function: FEEDS:9685   MISSING_ROWS:-8923
+
+bdxlen:6176  bdylen:4650
+l:0  t:4650  r:6176  b:0
+
+
+
+THIS IS THE ROUTE COST OF THE CURRENT PLACEMENT: 4722752
+
+
+
+THIS IS THE PENALTY OF THE CURRENT PLACEMENT: 1322
+
+The rand generator seed was at utemp() : 1
+
+
+  tempfile[0][0] = 0.982500    tempfile[0][1] = 90.000000
+  tempfile[1][0] = 0.915000    tempfile[1][1] = 20.000000
+  tempfile[2][0] = 0.700000    tempfile[2][1] = 10.000000
+  tempfile[3][0] = 0.100000    tempfile[3][1] = 0.000000
+
+  I   T  fds     Wire Penalty P_lim Epct binC rowC  acc  s/p early  FDs    MRs
+  1 500    0  5273057   97426   520  0.0  1.0  3.0 53.7  9.1  0.0  2173   8618
+  2 491    0  5173994   52605  1002  0.0  0.5  3.3 50.6  9.6  0.0  1881   8595

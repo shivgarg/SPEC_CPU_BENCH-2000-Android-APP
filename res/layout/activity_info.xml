@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/Battleship_Grey"
+    tools:context=".Info" >
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:gravity="top"
+        android:layout_alignParentBottom="true">
+        <TableRow
+        android:background="#111111"
+        android:gravity="bottom">       
+     <Button
+         android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_gzip" 
+         android:onClick="gzip"    />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:onClick="bzip2"
+         android:text="@string/title_activity_bzip2" />
+
+	<Button
+	    android:id="@+id/button4"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:onClick="parser"
+	    android:text="@string/title_activity_parser" />
+</TableRow>
+   <TableRow
+          android:background="#111111"
+          android:layout_gravity="right">
+	<Button
+	    android:id="@+id/button5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="gcc"
+	    android:text="@string/title_activity_gcc" />
+
+	<Button
+	    android:id="@+id/button6"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="mcf"
+	    android:text="@string/title_activity_mcf" />
+
+<Button
+	    android:id="@+id/button7"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="vortex"
+	    android:text="@string/title_activity_vortex" />
+</TableRow>
+   <TableRow
+          android:background="#111111"
+          android:layout_gravity="right">
+	<Button
+	    android:id="@+id/button8"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="twolf"
+	    android:text="@string/title_activity_twolf" />
+	<Button
+	    android:id="@+id/button9"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="vpr"
+	    android:text="@string/title_activity_vpr" />
+	<Button
+	    android:id="@+id/button10"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="crafty"
+	    android:text="@string/title_activity_crafty" />
+	</TableRow>
+	        <TableRow
+        android:background="#111111"
+        android:gravity="bottom">       
+     <Button
+         android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_gap" 
+         android:onClick="gap"    />
+     </TableRow>
+	</TableLayout>
+</LinearLayout>

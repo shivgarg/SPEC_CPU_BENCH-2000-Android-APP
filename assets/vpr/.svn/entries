@@ -1,0 +1,58 @@
+10
+
+dir
+6
+https://svn.iitd.ernet.in/~cs1120252/App/SPEC/assets/vpr
+https://svn.iitd.ernet.in/~cs1120252/App
+
+
+
+2013-12-15T07:28:06.354725Z
+6
+cs1120252@IITD.ERNET.IN
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d62b01df-e8bf-4b74-8640-21dbf7a5ce2b
+
+arch.in
+file
+0
+
+
+add
+
+net.in
+file
+0
+
+
+add
+
+place.in
+file
+0
+
+
+add
+
+ref
+dir
+
+test
+dir
+
+train
+dir
+
