@@ -1,4 +1,4 @@
-The app has ten fully running benchmarks namely : 
+The app has nine fully running benchmarks namely : 
 1. Gzip
 2. Bzip2
 3. Parser
@@ -7,7 +7,7 @@ The app has ten fully running benchmarks namely :
 6. Gcc
 7. Mcf
 8. Crafty
-9.Vpr
+9. Vpr
 
 
 
