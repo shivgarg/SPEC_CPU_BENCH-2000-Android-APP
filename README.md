@@ -1,3 +1,8 @@
+SPEC CPU 2000 for android
+==============================
+
+### Description
+The SPEC CPU2000 benchmark suite was ported to android . It was complied using android ndk version 9. The app runs the benchmarks with various levels of optimisation of the complier and with different sets of inputs to the benchmarks(namely test,train and ref).<br>
 The app has nine fully running benchmarks namely : 
 1. Gzip
 2. Bzip2
@@ -10,20 +15,20 @@ The app has nine fully running benchmarks namely :
 9. Vpr
 
 
+### Building
+- To build the apk in debug mode use "make debug".
+- To build the apk in release mode use "make release". 
+- To build the native code for android run "make native".
+But the android toolchain needs to be present in the directory for the makefile to use the tools to compile the benchmarks. Additionally **ant** utility needs to be installed for build to succeed.The project requires ndk and sdk for android tools for development. The project has been exported from andoird studio and can be importted in Andorid studio.
 
-The project requires ndk and sdk for android tools for development
-To do some development place ndk sdk folder downloaded from android developers site in the project directory.
-The project can be also be developed using eclipse adt for which just importing the project is required.
-to build the app "ant" is required.
-the native code is in jni folder which has all the benchmarks c code.
-src contains all the java code for the app activites.
-the assests folder has all the input files used by various benchmarks.
-to build the apk in release mode use "make release"
-to build the apk in debug mode use "make debug"
-to compile the native c code of the benchmarks use "make native"
-to install the app in usb debugging mode in phone use "ant release install". This will install release apk in phone.
-the apk and its various versions are built in bin folder
-release, unsigned, unaligned all these versions of apk are produced.
+## Directory Structure
+- The native code is in jni folder which has all the benchmarks c code.
+- src contains all the java code for the app activites.
+- the assests folder has all the input files used by various benchmarks.
+- The apk and its various versions are built in bin folder.Release, unsigned, unaligned all these versions of apk are produced.
 
 
-to sign the app use "specand1" as password for both alias and keystore. 
+### Output format
+The app stores the result in html format in the external memory of the phone. The result can be shared easily using any of the sharing options avaiable in android. The output format is in the form table which contains the execution time of the benchmarks requested.
+
+### Screenshots
