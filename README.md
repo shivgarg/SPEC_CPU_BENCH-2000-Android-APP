@@ -1,4 +1,4 @@
-SPEC CPU 2000 for android
+SPEC CPU 2000 for Android
 ==============================
 
 ### Description
@@ -14,6 +14,7 @@ The app has nine fully running benchmarks namely :
 8. Crafty
 9. Vpr
 
+Try to use the app present in the bin folder.
 
 ### Building
 - To build the apk in debug mode use "make debug".
@@ -31,4 +32,3 @@ But the android toolchain needs to be present in the directory for the makefile 
 ### Output format
 The app stores the result in html format in the external memory of the phone. The result can be shared easily using any of the sharing options avaiable in android. The output format is in the form table which contains the execution time of the benchmarks requested.
 
-### Screenshots
